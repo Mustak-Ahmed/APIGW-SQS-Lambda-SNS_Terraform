@@ -6,9 +6,14 @@ then it will send the request to DLQ and notication will trigger through SNS.
 
 ## Running the demo
 1.Clone the repo.
+
 2.change the profile in main.tf file.
+
 3.open cmd, go to your file location and run below commands-
 
 terraform init
+
 terraform plan
+
 terraform apply -auto-approve
+
